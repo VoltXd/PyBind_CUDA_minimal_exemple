@@ -1,0 +1,4 @@
+C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/TEST_PYBIND_CUDA.dir
+C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/libraries/pybind11/CMakeFiles/ALL_BUILD.dir

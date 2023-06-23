@@ -1,0 +1,442 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine versione 16.6.0+5ff7b0c9e per .NET Framework
+      Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+      
+      Compilazione avviata 23/06/2023 10:56:49.
+      Progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sul nodo 1 (destinazioni predefinite).
+      PrepareForBuild:
+        Creazione directory "Debug\\".
+        Creazione directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creazione di "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild". È stato specificato "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Eliminazione del file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" in corso.
+        Aggiornamento timestamp di "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilazione progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinazioni predefinite) completata.
+      
+      Compilazione completata.
+          Avvisi: 0
+          Errori: 0
+      
+      Tempo trascorso 00:00:02.07
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine versione 16.6.0+5ff7b0c9e per .NET Framework
+      Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+      
+      Compilazione avviata 23/06/2023 10:56:52.
+      Progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" sul nodo 1 (destinazioni predefinite).
+      PrepareForBuild:
+        Creazione directory "Debug\\".
+        Creazione directory "Debug\\CompilerIdCUDA.tlog\\".
+      InitializeBuildStatus:
+        Creazione di "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild". È stato specificato "AlwaysCreate".
+      AddCudaCompileDeps:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include" /I. /FIcuda_runtime.h /c C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu 
+      Compilazione di "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1:2) dal progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1) sul nodo 1 (destinazioni: CudaBuildCore).
+      CudaBuildCore:
+        Compiling CUDA source file CMakeCUDACompilerId.cu...
+        cmd.exe /C "C:\\Users\\Utente\\AppData\\Local\\Temp\\tmpb9f04f375cc8432dac087a3d6979b4e9.cmd"
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin\\nvcc.exe" -gencode=arch=compute_30,code=\\"sm_30,compute_30\\" --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64" -x cu  -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include"  -G   --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
+        
+        C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin\\nvcc.exe" -gencode=arch=compute_30,code=\\"sm_30,compute_30\\" --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64" -x cu  -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include"  -G   --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin
+        #$ _THERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_SIZE_=64
+        #$ _WIN_PLATFORM_=x64
+        #$ TOP=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin/..
+        #$ NVVMIR_LIBRARY_DIR=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin/../nvvm/libdevice
+        #$ PATH=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin/../lib;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.18362.0\\x64;;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.18362.0\\x86;;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\libnvvp;C:\\Windows\\System32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2019b\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2019.5.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v6.5\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Tcl\\bin;C:\\Users\\Utente\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\libnvvp;C:\\Windows\\System32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\MATLAB\\R2019b\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2019.5.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v6.5\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\CMake\\bin;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin;;C:\\Users\\Utente\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;
+        #$ INCLUDES="-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin/../include"  
+        #$ LIBRARIES=  "/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin/../lib/x64"
+        #$ CUDAFE_FLAGS=--sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"
+        #$ PTXAS_FLAGS=
+        CMakeCUDACompilerId.cu
+        #$ cl.exe @"C:\\Users\\Utente\\AppData\\Local\\Temp/tmpxft_000019e4_00000000-8.res" > "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-7_CMakeCUDACompilerId.cpp1.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\Utente\\AppData\\Local\\Temp/tmpxft_000019e4_00000000-8.res
+        #$ cicc --microsoft_version=1926 --msvc_target_version=1926 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/bin/HostX64/x64/../../../../../../.." --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_30 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_000019e4_00000000-3_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused -nvvmir-library "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin/../nvvm/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-4_CMakeCUDACompilerId.module_id" --orig_src_file_name "C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/3.26.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --gen_c_file_name "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-6_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-6_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-6_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-7_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-6_CMakeCUDACompilerId.ptx"
+        #$ ptxas -arch=sm_30 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-6_CMakeCUDACompilerId.ptx"  -o "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-9_CMakeCUDACompilerId.sm_30.cubin" 
+        #$ fatbinary -64 --ident="C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/3.26.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=30,file=C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-9_CMakeCUDACompilerId.sm_30.cubin" "--image3=kind=ptx,sm=30,file=C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-6_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-3_CMakeCUDACompilerId.fatbin.c" 
+        #$ erase C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-3_CMakeCUDACompilerId.fatbin
+        #$ cl.exe @"C:\\Users\\Utente\\AppData\\Local\\Temp/tmpxft_000019e4_00000000-10.res" > "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-5_CMakeCUDACompilerId.cpp4.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\Utente\\AppData\\Local\\Temp/tmpxft_000019e4_00000000-10.res
+        #$ cudafe++ --microsoft_version=1926 --msvc_target_version=1926 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/bin/HostX64/x64/../../../../../../.." --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-6_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_000019e4_00000000-6_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-4_CMakeCUDACompilerId.module_id" "C:/Users/Utente/AppData/Local/Temp/tmpxft_000019e4_00000000-5_CMakeCUDACompilerId.cpp4.ii" 
+        #$ cl.exe @"C:\\Users\\Utente\\AppData\\Local\\Temp/tmpxft_000019e4_00000000-11.res" -Fo"Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_000019e4_00000000-6_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\Utente\\AppData\\Local\\Temp/tmpxft_000019e4_00000000-11.res
+      Compilazione progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (destinazioni: CudaBuildCore) completata.
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 Debug\\CMakeCUDACompilerId.cu.obj
+           Creazione della libreria .\\CompilerIdCUDA.lib e dell'oggetto .\\CompilerIdCUDA.exp
+        CompilerIdCUDA.vcxproj -> C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\.\\CompilerIdCUDA.exe
+      PostBuildEvent:
+        echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin\\nvcc.exe
+        :VCEnd
+        CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin\\nvcc.exe
+      FinalizeBuildStatus:
+        Eliminazione del file "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild" in corso.
+        Aggiornamento timestamp di "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate".
+      Compilazione progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\3.26.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (destinazioni predefinite) completata.
+      
+      Compilazione completata.
+          Avvisi: 0
+          Errori: 0
+      
+      Tempo trascorso 00:00:09.90
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/3.26.3/CompilerIdCUDA/CompilerIdCUDA.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:579 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'INCLUDES=' string: ["-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin/../include"  ]
+      
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-jhhp7m"
+      binary: "C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-jhhp7m"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-jhhp7m
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_12507.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versione 16.6.0+5ff7b0c9e per .NET Framework
+        Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+        
+        Compilazione avviata 23/06/2023 10:57:03.
+        Progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhhp7m\\cmTC_12507.vcxproj" sul nodo 1 (destinazioni predefinite).
+        PrepareForBuild:
+          Creazione directory "cmTC_12507.dir\\Debug\\".
+          Creazione directory "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhhp7m\\Debug\\".
+          Creazione directory "cmTC_12507.dir\\Debug\\cmTC_12507.tlog\\".
+        InitializeBuildStatus:
+          Creazione di "cmTC_12507.dir\\Debug\\cmTC_12507.tlog\\unsuccessfulbuild". È stato specificato "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_12507.dir\\Debug\\\\" /Fd"cmTC_12507.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler versione 19.26.28806 per x64
+          Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_12507.dir\\Debug\\\\" /Fd"cmTC_12507.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhhp7m\\Debug\\cmTC_12507.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-jhhp7m/Debug/cmTC_12507.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-jhhp7m/Debug/cmTC_12507.lib" /MACHINE:X64  /machine:x64 cmTC_12507.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_12507.vcxproj -> C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhhp7m\\Debug\\cmTC_12507.exe
+        FinalizeBuildStatus:
+          Eliminazione del file "cmTC_12507.dir\\Debug\\cmTC_12507.tlog\\unsuccessfulbuild" in corso.
+          Aggiornamento timestamp di "cmTC_12507.dir\\Debug\\cmTC_12507.tlog\\cmTC_12507.lastbuildstate".
+        Compilazione progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhhp7m\\cmTC_12507.vcxproj" (destinazioni predefinite) completata.
+        
+        Compilazione completata.
+            Avvisi: 0
+            Errori: 0
+        
+        Tempo trascorso 00:00:04.20
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-zwmui8"
+      binary: "C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-zwmui8"
+    cmakeVariables:
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\"/W3 /GR /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\"-MDd  -Zi -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-zwmui8
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_eff09.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versione 16.6.0+5ff7b0c9e per .NET Framework
+        Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+        
+        Compilazione avviata 23/06/2023 10:57:09.
+        Progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj" sul nodo 1 (destinazioni predefinite).
+        PrepareForBuild:
+          Creazione directory "cmTC_eff09.dir\\Debug\\".
+          Creazione directory "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\Debug\\".
+          Creazione directory "cmTC_eff09.dir\\Debug\\cmTC_eff09.tlog\\".
+        InitializeBuildStatus:
+          Creazione di "cmTC_eff09.dir\\Debug\\cmTC_eff09.tlog\\unsuccessfulbuild". È stato specificato "AlwaysCreate".
+        AddCudaCompileDeps:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu" 
+        Compilazione di "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj" (1:2) dal progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj" (1) sul nodo 1 (destinazioni: CudaBuildCore).
+        CudaBuildCore:
+          Compiling CUDA source file ..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu...
+          cmd.exe /C "C:\\Users\\Utente\\AppData\\Local\\Temp\\tmp92a90617572c44a6aaf742f52130277f.cmd"
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FdcmTC_eff09.dir\\Debug\\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_eff09.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu"
+          
+          C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FdcmTC_eff09.dir\\Debug\\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_eff09.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu" 
+          cl : warning della riga di comando D9002 : l'opzione sconosciuta '-v' verrà ignorata
+          CMakeCUDACompilerABI.cu
+          cl : warning della riga di comando D9002 : l'opzione sconosciuta '-v' verrà ignorata
+          CMakeCUDACompilerABI.cu
+          CMakeCUDACompilerABI.cu
+          cl : warning della riga di comando D9002 : l'opzione sconosciuta '-v' verrà ignorata
+        Compilazione progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj" (destinazioni: CudaBuildCore) completata.
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\Debug\\cmTC_eff09.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-zwmui8/Debug/cmTC_eff09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-zwmui8/Debug/cmTC_eff09.lib" /MACHINE:X64  /machine:x64 -v cmTC_eff09.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: opzione '/v' non riconosciuta; verrà ignorata [C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj]
+             Creazione della libreria C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-zwmui8/Debug/cmTC_eff09.lib e dell'oggetto C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-zwmui8/Debug/cmTC_eff09.exp
+          cmTC_eff09.vcxproj -> C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\Debug\\cmTC_eff09.exe
+        FinalizeBuildStatus:
+          Eliminazione del file "cmTC_eff09.dir\\Debug\\cmTC_eff09.tlog\\unsuccessfulbuild" in corso.
+          Aggiornamento timestamp di "cmTC_eff09.dir\\Debug\\cmTC_eff09.tlog\\cmTC_eff09.lastbuildstate".
+        Compilazione progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj" (destinazioni predefinite) completata.
+        
+        Compilazione completata.
+        
+        "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj" (destinazione predefinita) (1) ->
+        (destinazione: Link) -> 
+          LINK : warning LNK4044: opzione '/v' non riconosciuta; verrà ignorata [C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj]
+        
+            Avvisi: 1
+            Errori: 0
+        
+        Tempo trascorso 00:00:06.34
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(link\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-zwmui8]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_eff09.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versione 16.6.0+5ff7b0c9e per .NET Framework]
+        ignore line: [Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.]
+        ignore line: []
+        ignore line: [Compilazione avviata 23/06/2023 10:57:09.]
+        ignore line: [Progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj" sul nodo 1 (destinazioni predefinite).]
+        ignore line: [PrepareForBuild:]
+        ignore line: [  Creazione directory "cmTC_eff09.dir\\Debug\\".]
+        ignore line: [  Creazione directory "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\Debug\\".]
+        ignore line: [  Creazione directory "cmTC_eff09.dir\\Debug\\cmTC_eff09.tlog\\".]
+        ignore line: [InitializeBuildStatus:]
+        ignore line: [  Creazione di "cmTC_eff09.dir\\Debug\\cmTC_eff09.tlog\\unsuccessfulbuild". È stato specificato "AlwaysCreate".]
+        ignore line: [AddCudaCompileDeps:]
+        ignore line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [Compilazione di "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj" (1:2) dal progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj" (1) sul nodo 1 (destinazioni: CudaBuildCore).]
+        ignore line: [CudaBuildCore:]
+        ignore line: [  Compiling CUDA source file ..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu...]
+        ignore line: [  cmd.exe /C "C:\\Users\\Utente\\AppData\\Local\\Temp\\tmp92a90617572c44a6aaf742f52130277f.cmd"]
+        ignore line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FdcmTC_eff09.dir\\Debug\\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_eff09.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  ]
+        ignore line: [  C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FdcmTC_eff09.dir\\Debug\\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_eff09.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [  cl : warning della riga di comando D9002 : l'opzione sconosciuta '-v' verrà ignorata]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  cl : warning della riga di comando D9002 : l'opzione sconosciuta '-v' verrà ignorata]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  cl : warning della riga di comando D9002 : l'opzione sconosciuta '-v' verrà ignorata]
+        ignore line: [Compilazione progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj" (destinazioni: CudaBuildCore) completata.]
+        ignore line: [Link:]
+        ignore line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\Debug\\cmTC_eff09.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-zwmui8/Debug/cmTC_eff09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-zwmui8/Debug/cmTC_eff09.lib" /MACHINE:X64  /machine:x64 -v cmTC_eff09.dir\\Debug\\CMakeCUDACompilerABI.obj]
+        ignore line: [LINK : warning LNK4044: opzione '/v' non riconosciuta]
+        ignore line: [ verrà ignorata [C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj]]
+        ignore line: [     Creazione della libreria C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-zwmui8/Debug/cmTC_eff09.lib e dell'oggetto C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-zwmui8/Debug/cmTC_eff09.exp]
+        ignore line: [  cmTC_eff09.vcxproj -> C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\Debug\\cmTC_eff09.exe]
+        ignore line: [FinalizeBuildStatus:]
+        ignore line: [  Eliminazione del file "cmTC_eff09.dir\\Debug\\cmTC_eff09.tlog\\unsuccessfulbuild" in corso.]
+        ignore line: [  Aggiornamento timestamp di "cmTC_eff09.dir\\Debug\\cmTC_eff09.tlog\\cmTC_eff09.lastbuildstate".]
+        ignore line: [Compilazione progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj" (destinazioni predefinite) completata.]
+        ignore line: []
+        ignore line: [Compilazione completata.]
+        ignore line: []
+        ignore line: ["C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj" (destinazione predefinita) (1) ->]
+        ignore line: [(destinazione: Link) -> ]
+        ignore line: [  LINK : warning LNK4044: opzione '/v' non riconosciuta]
+        ignore line: [ verrà ignorata [C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwmui8\\cmTC_eff09.vcxproj]]
+        ignore line: []
+        ignore line: [    Avvisi: 1]
+        ignore line: [    Errori: 0]
+        ignore line: []
+        ignore line: [Tempo trascorso 00:00:06.34]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "libraries/pybind11/tools/pybind11Common.cmake:268 (check_cxx_compiler_flag)"
+      - "libraries/pybind11/tools/pybind11Common.cmake:332 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "libraries/pybind11/tools/pybind11Common.cmake:377 (_pybind11_generate_lto)"
+      - "libraries/pybind11/CMakeLists.txt:210 (include)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-xci1nr"
+      binary: "C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-xci1nr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-xci1nr
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_dd847.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versione 16.6.0+5ff7b0c9e per .NET Framework
+        Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+        
+        Compilazione avviata 23/06/2023 10:57:34.
+        Progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xci1nr\\cmTC_dd847.vcxproj" sul nodo 1 (destinazioni predefinite).
+        PrepareForBuild:
+          Creazione directory "cmTC_dd847.dir\\Debug\\".
+          Creazione directory "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xci1nr\\Debug\\".
+          Creazione directory "cmTC_dd847.dir\\Debug\\cmTC_dd847.tlog\\".
+        InitializeBuildStatus:
+          Creazione di "cmTC_dd847.dir\\Debug\\cmTC_dd847.tlog\\unsuccessfulbuild". È stato specificato "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dd847.dir\\Debug\\\\" /Fd"cmTC_dd847.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xci1nr\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler versione 19.26.28806 per x64
+          src.cxx
+          Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dd847.dir\\Debug\\\\" /Fd"cmTC_dd847.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xci1nr\\src.cxx"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xci1nr\\Debug\\cmTC_dd847.exe" /INCREMENTAL /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-xci1nr/Debug/cmTC_dd847.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Utente/Desktop/Pierre-Alexandre/PyBind_CUDA/build/CMakeFiles/CMakeScratch/TryCompile-xci1nr/Debug/cmTC_dd847.lib" /MACHINE:X64  /machine:x64 cmTC_dd847.dir\\Debug\\src.obj
+        LINK : warning LNK4075: '/INCREMENTAL' ignorato a causa della specifica di '/LTCG' [C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xci1nr\\cmTC_dd847.vcxproj]
+          Generazione codice in corso...
+          Generazione codice terminata
+          cmTC_dd847.vcxproj -> C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xci1nr\\Debug\\cmTC_dd847.exe
+        FinalizeBuildStatus:
+          Eliminazione del file "cmTC_dd847.dir\\Debug\\cmTC_dd847.tlog\\unsuccessfulbuild" in corso.
+          Aggiornamento timestamp di "cmTC_dd847.dir\\Debug\\cmTC_dd847.tlog\\cmTC_dd847.lastbuildstate".
+        Compilazione progetto "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xci1nr\\cmTC_dd847.vcxproj" (destinazioni predefinite) completata.
+        
+        Compilazione completata.
+        
+        "C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xci1nr\\cmTC_dd847.vcxproj" (destinazione predefinita) (1) ->
+        (destinazione: Link) -> 
+          LINK : warning LNK4075: '/INCREMENTAL' ignorato a causa della specifica di '/LTCG' [C:\\Users\\Utente\\Desktop\\Pierre-Alexandre\\PyBind_CUDA\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xci1nr\\cmTC_dd847.vcxproj]
+        
+            Avvisi: 1
+            Errori: 0
+        
+        Tempo trascorso 00:00:03.94
+        
+      exitCode: 0
+...
